@@ -86,6 +86,11 @@ angular
         controller: 'MonitoringController',
         reloadOnSearch: false
       })
+      .when('/project/:project/backup', {
+        templateUrl: 'views/backup.html',
+        controller: 'BackupController',
+        reloadOnSearch: false
+      })
       .when('/project/:project/membership', {
         templateUrl: 'views/membership.html',
         controller: 'MembershipController',

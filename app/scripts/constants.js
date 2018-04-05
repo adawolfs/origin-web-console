@@ -418,6 +418,11 @@ angular.extend(window.OPENSHIFT_CONSTANTS, {
       // ]
     },
     {
+      label: "Backups",
+      iconClass: "pficon pficon-volume",
+      href: "/backup",
+    },
+    {
       label: "Catalog",
       iconClass: "pficon pficon-catalog",
       href: "/catalog",
